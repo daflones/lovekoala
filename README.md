@@ -63,3 +63,4 @@ O token é solicitado de forma oculta ou lido de `SUPABASE_ACCESS_TOKEN`. O prim
 
 O ZIP exportado contém o código e a documentação, sem `.git`, credenciais, dependências locais ou diretórios de build. Faça commit e push no seu repositório e use esse repositório como fonte do EasyPanel.
 "# lovekoala" 
+"# lovekoala" 
