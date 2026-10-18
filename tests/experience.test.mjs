@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {emptyGift,demoGift} from '../src/domain.mjs';
+import {completeGift,EDITOR_STEPS,validateStep,chapterList,DEMO_DETAILS,embeddedMusic} from '../src/experience.mjs';
+test('rascunhos antigos continuam editáveis com as novas seções',()=>{const g=completeGift({...emptyGift,sender:'Ana'});assert.equal(g.sender,'Ana');assert.deepEqual(g.quiz,[]);assert.deepEqual(g.milestones,[]);assert.equal(g.editor_version,2);});
+test('capítulos acompanham dados reais e não inventam marcos vazios',()=>{const basic=chapterList(emptyGift);assert(!basic.some(c=>['timeline','places','dreams','quiz'].includes(c.id)));const full=chapterList({...demoGift,...DEMO_DETAILS});assert.equal(full.length,17);assert.equal(new Set(full.map(c=>c.id)).size,17);assert(full.every(c=>c.duration>0));});
+test('entrega exige informações essenciais mesmo ao retomar um rascunho',()=>{assert.equal(EDITOR_STEPS.length,13);assert(validateStep(12,emptyGift));const valid={...emptyGift,sender:'Ana',recipient:'Bia',letter:'Te amo',photos:[{}],email:'ana@example.com',slug:'ana-e-bia'};assert.equal(validateStep(12,valid),'');assert(validateStep(12,{...valid,photos:[]}));assert(validateStep(12,{...valid,email:'inválido'}));});
+test('links externos viram apenas embeds oficiais seguros',()=>{assert.equal(embeddedMusic('https://youtu.be/dQw4w9WgXcQ').provider,'YouTube');assert.equal(embeddedMusic('https://open.spotify.com/intl-pt/track/abc123').src,'https://open.spotify.com/embed/track/abc123');assert.equal(embeddedMusic('https://youtube.com.evil.example/watch?v=dQw4w9WgXcQ'),null);assert.equal(embeddedMusic('javascript:alert(1)'),null);assert.equal(embeddedMusic('https://youtu.be/short'),null);});
+test('seleção opcional preserva os capítulos essenciais',()=>{const list=chapterList({...demoGift,...DEMO_DETAILS,section_selection:['dreams']});assert.deepEqual(list.map(c=>c.id),['song','about','photos','dreams','ending']);});

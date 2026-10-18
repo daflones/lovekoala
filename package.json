@@ -1,0 +1,29 @@
+{
+  "name": "lovekoala",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Presentes digitais para casais: álbum interativo e retrospectiva.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "tsc -b && vite build",
+    "check": "tsc -b",
+    "test": "node --test tests/*.test.mjs",
+    "check:edge": "tsc --noEmit --target ES2022 --lib ES2022,DOM --module ESNext --skipLibCheck supabase/functions/lovekoala-api/index.ts tests/edge-globals.d.ts",
+    "test:ops": "python3 -m unittest discover -s tests -p 'test_*.py'"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0",
+    "page-flip": "^2.0.7",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.0"
+  }
+}

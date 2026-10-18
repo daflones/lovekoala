@@ -1,0 +1,728 @@
+[
+  {
+    "id": "landing.copy.001",
+    "label": "tem coisas que uma foto sozinha não consegue contar",
+    "value": "tem coisas que uma foto sozinha não consegue contar",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.002",
+    "label": "Meus presentes",
+    "value": "Meus presentes",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.003",
+    "label": "Meus presentes",
+    "value": "Meus presentes",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.004",
+    "label": "Criar presente",
+    "value": "Criar presente",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.005",
+    "label": "UM PRESENTE DIGITAL. UM SENTIMENTO REAL.",
+    "value": "UM PRESENTE DIGITAL. UM SENTIMENTO REAL.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.006",
+    "label": "Vocês viveram.",
+    "value": "Vocês viveram.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.007",
+    "label": "Agora, faça",
+    "value": "Agora, faça",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.008",
+    "label": "virar presente.",
+    "value": "virar presente.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.009",
+    "label": "A história de vocês em um álbum cheio de descobertas ou numa playlist de memória",
+    "value": "A história de vocês em um álbum cheio de descobertas ou numa playlist de memórias. Feito para arrancar aquele sorriso de",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.010",
+    "label": "“você lembrou disso?”",
+    "value": "“você lembrou disso?”",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.011",
+    "label": "Criar o nosso presente",
+    "value": "Criar o nosso presente",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.012",
+    "label": "Quero ver primeiro",
+    "value": "Quero ver primeiro",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.013",
+    "label": "Veja a prévia antes de pagar",
+    "value": "Veja a prévia antes de pagar",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.014",
+    "label": "Abre direto no celular",
+    "value": "Abre direto no celular",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.015",
+    "label": "Um oi. Algumas memórias.",
+    "value": "Um oi. Algumas memórias.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.016",
+    "label": "Um presente com a cara de vocês.",
+    "value": "Um presente com a cara de vocês.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.017",
+    "label": "O Coala te ajuda a começar",
+    "value": "O Coala te ajuda a começar",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.018",
+    "label": "o nosso pequeno",
+    "value": "o nosso pequeno",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.019",
+    "label": "infinito.",
+    "value": "infinito.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.020",
+    "label": "meu lugar favorito ♡",
+    "value": "meu lugar favorito ♡",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.021",
+    "label": "abra quando",
+    "value": "abra quando",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.022",
+    "label": "bater saudade",
+    "value": "bater saudade",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.023",
+    "label": "TOCANDO AGORA",
+    "value": "TOCANDO AGORA",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.024",
+    "label": "A melhor parte é você",
+    "value": "A melhor parte é você",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.025",
+    "label": "Álbum 3D",
+    "value": "Álbum 3D",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.026",
+    "label": "Retrospectiva",
+    "value": "Retrospectiva",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.027",
+    "label": "um aniversário",
+    "value": "um aniversário",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.028",
+    "label": "uma saudade",
+    "value": "uma saudade",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.029",
+    "label": "um pedido especial",
+    "value": "um pedido especial",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.030",
+    "label": "ou só porque é amor",
+    "value": "ou só porque é amor",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.031",
+    "label": "ESCOLHA COMO CONTAR",
+    "value": "ESCOLHA COMO CONTAR",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.032",
+    "label": "O mesmo amor.",
+    "value": "O mesmo amor.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.033",
+    "label": "Dois jeitos de sentir.",
+    "value": "Dois jeitos de sentir.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.034",
+    "label": "Tem história que pede uma página. Tem história que pede um play.",
+    "value": "Tem história que pede uma página. Tem história que pede um play.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.035",
+    "label": "PARA FOLHEAR DEVAGAR",
+    "value": "PARA FOLHEAR DEVAGAR",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.036",
+    "label": "cada página,",
+    "value": "cada página,",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.037",
+    "label": "uma surpresa. ✧",
+    "value": "uma surpresa. ✧",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.038",
+    "label": "eu escolheria",
+    "value": "eu escolheria",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.039",
+    "label": "você de novo.",
+    "value": "você de novo.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.040",
+    "label": "01 / NOSSO LIVRO DE AMOR",
+    "value": "01 / NOSSO LIVRO DE AMOR",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.041",
+    "label": "Um álbum que",
+    "value": "Um álbum que",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.042",
+    "label": "ganha vida nas mãos.",
+    "value": "ganha vida nas mãos.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.043",
+    "label": "Arraste as páginas, abra os envelopes e descubra um universo de fotos, bilhetinh",
+    "value": "Arraste as páginas, abra os envelopes e descubra um universo de fotos, bilhetinhos e planos para viver juntos.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.044",
+    "label": "Folhas em 3D",
+    "value": "Folhas em 3D",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.045",
+    "label": "Cartas que abrem",
+    "value": "Cartas que abrem",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.046",
+    "label": "Cenários animados",
+    "value": "Cenários animados",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.047",
+    "label": "Quero nosso álbum",
+    "value": "Quero nosso álbum",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.048",
+    "label": "Folhear exemplo",
+    "value": "Folhear exemplo",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.049",
+    "label": "PARA DEIXAR NO REPEAT",
+    "value": "PARA DEIXAR NO REPEAT",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.050",
+    "label": "a nossa melhor",
+    "value": "a nossa melhor",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.051",
+    "label": "playlist é nós. ♪",
+    "value": "playlist é nós. ♪",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.052",
+    "label": "02 / NOSSO AMOR NO PLAY",
+    "value": "02 / NOSSO AMOR NO PLAY",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.053",
+    "label": "Uma playlist.",
+    "value": "Uma playlist.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.054",
+    "label": "Todas as nossas fases.",
+    "value": "Todas as nossas fases.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.055",
+    "label": "A música, as fotos, o primeiro encontro e o que ainda vem pela frente. Uma retro",
+    "value": "A música, as fotos, o primeiro encontro e o que ainda vem pela frente. Uma retrospectiva com até 17 capítulos para reviver.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.056",
+    "label": "Player interativo",
+    "value": "Player interativo",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.057",
+    "label": "Fotos no ritmo",
+    "value": "Fotos no ritmo",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.058",
+    "label": "Capítulos do casal",
+    "value": "Capítulos do casal",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.059",
+    "label": "Quero dar o play",
+    "value": "Quero dar o play",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.060",
+    "label": "Ouvir nossa história",
+    "value": "Ouvir nossa história",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.061",
+    "label": "OS DETALHES FAZEM O PRESENTE",
+    "value": "OS DETALHES FAZEM O PRESENTE",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.062",
+    "label": "Não é só olhar.",
+    "value": "Não é só olhar.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.063",
+    "label": "É descobrir.",
+    "value": "É descobrir.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.064",
+    "label": "VOCÊ TRAZ AS MEMÓRIAS. A GENTE ARRUMA A CASA.",
+    "value": "VOCÊ TRAZ AS MEMÓRIAS. A GENTE ARRUMA A CASA.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.065",
+    "label": "Um passo de cada vez.",
+    "value": "Um passo de cada vez.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.066",
+    "label": "Um monte de carinho.",
+    "value": "Um monte de carinho.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.067",
+    "label": "O Coala faz perguntas diretas e transforma suas respostas em partes do presente.",
+    "value": "O Coala faz perguntas diretas e transforma suas respostas em partes do presente. Você pode conversar ou preencher os campos, sempre vendo o resultado.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.068",
+    "label": "Vamos criar o nosso?",
+    "value": "Vamos criar o nosso?",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.069",
+    "label": "Seu Coala",
+    "value": "Seu Coala",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.070",
+    "label": "Uma pergunta de cada vez",
+    "value": "Uma pergunta de cada vez",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.071",
+    "label": "A SURPRESA COMEÇA AQUI",
+    "value": "A SURPRESA COMEÇA AQUI",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.072",
+    "label": "Qual é aquela lembrança que sempre faz vocês sorrirem? ♡",
+    "value": "Qual é aquela lembrança que sempre faz vocês sorrirem? ♡",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.073",
+    "label": "A nossa primeira viagem. Choveu todos os dias e foi perfeita mesmo assim.",
+    "value": "A nossa primeira viagem. Choveu todos os dias e foi perfeita mesmo assim.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.074",
+    "label": "Essa vai para a linha do tempo. Agora, escolha uma foto dessa viagem.",
+    "value": "Essa vai para a linha do tempo. Agora, escolha uma foto dessa viagem.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.075",
+    "label": "Adicionar nossa memória",
+    "value": "Adicionar nossa memória",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.076",
+    "label": "A história continua sendo de vocês.",
+    "value": "A história continua sendo de vocês.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.077",
+    "label": "QUAL É O UNIVERSO DE VOCÊS?",
+    "value": "QUAL É O UNIVERSO DE VOCÊS?",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.078",
+    "label": "Romance tem",
+    "value": "Romance tem",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.079",
+    "label": "muitas cores.",
+    "value": "muitas cores.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.080",
+    "label": "Uma identidade completa, da capa ao último detalhe.",
+    "value": "Uma identidade completa, da capa ao último detalhe.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.081",
+    "label": "toque para folhear o exemplo ↗",
+    "value": "toque para folhear o exemplo ↗",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.082",
+    "label": "UMA SURPRESA PARA CHAMAR DE NOSSA",
+    "value": "UMA SURPRESA PARA CHAMAR DE NOSSA",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.083",
+    "label": "O carinho é enorme.",
+    "value": "O carinho é enorme.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.084",
+    "label": "Você escolhe o espaço.",
+    "value": "Você escolhe o espaço.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.085",
+    "label": "Pagamento único. Modelos e animações já incluídos.",
+    "value": "Pagamento único. Modelos e animações já incluídos.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.086",
+    "label": "MAIS ESPAÇO PARA NÓS",
+    "value": "MAIS ESPAÇO PARA NÓS",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.087",
+    "label": "uma vez só",
+    "value": "uma vez só",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.088",
+    "label": "Escolher",
+    "value": "Escolher",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.089",
+    "label": "Cartão com Stripe",
+    "value": "Cartão com Stripe",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.090",
+    "label": "Pix com MercosulPay",
+    "value": "Pix com MercosulPay",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.091",
+    "label": "Prévia gratuita",
+    "value": "Prévia gratuita",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.092",
+    "label": "PODE PERGUNTAR",
+    "value": "PODE PERGUNTAR",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.093",
+    "label": "Antes de virar",
+    "value": "Antes de virar",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.094",
+    "label": "borboleta no estômago.",
+    "value": "borboleta no estômago.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.095",
+    "label": "A próxima surpresa",
+    "value": "A próxima surpresa",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.096",
+    "label": "tem a cara de",
+    "value": "tem a cara de",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.097",
+    "label": "vocês.",
+    "value": "vocês.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.098",
+    "label": "Algumas fotos. Palavras suas. Um lugar para guardar tudo isso.",
+    "value": "Algumas fotos. Palavras suas. Um lugar para guardar tudo isso.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.099",
+    "label": "Criar nosso pequeno infinito",
+    "value": "Criar nosso pequeno infinito",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.100",
+    "label": "feito de nós. feito com amor.",
+    "value": "feito de nós. feito com amor.",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.101",
+    "label": "Termos",
+    "value": "Termos",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.102",
+    "label": "Privacidade",
+    "value": "Privacidade",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.103",
+    "label": "Meus presentes",
+    "value": "Meus presentes",
+    "group": "Página inicial"
+  },
+  {
+    "id": "landing.copy.104",
+    "label": "LoveKoala",
+    "value": "LoveKoala",
+    "group": "Página inicial"
+  },
+  {
+    "id": "faq.0.q",
+    "label": "Como o Coala me ajuda?",
+    "value": "Como o Coala me ajuda?",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.0.a",
+    "label": "Resposta: Como o Coala me ajuda?",
+    "value": "Ele faz perguntas prontas, uma por vez, e guarda suas respostas nos campos certos. Você também pode preencher tudo pelo formulário. Os modelos, as animações e a montagem funcionam sem depender de inteligência artificial.",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.1.q",
+    "label": "O que vem dentro do presente?",
+    "value": "O que vem dentro do presente?",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.1.a",
+    "label": "Resposta: O que vem dentro do presente?",
+    "value": "Fotos, música, carta, contador do casal e o começo da história. Você pode acrescentar linha do tempo, motivos, lugares, conquistas, sonhos, cartas “abra quando”, vales e quiz. Só aparecem os capítulos que você preencher.",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.2.q",
+    "label": "Posso testar antes de pagar?",
+    "value": "Posso testar antes de pagar?",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.2.a",
+    "label": "Resposta: Posso testar antes de pagar?",
+    "value": "Sim! Você monta e abre a prévia completa gratuitamente. Depois escolhe seu plano e o pagamento único ou mensal. No mensal, o cartão renova automaticamente; no Pix, você paga novamente a cada vencimento. A publicação fica disponível após a confirmação do pagamento.",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.3.q",
+    "label": "Como a outra pessoa recebe?",
+    "value": "Como a outra pessoa recebe?",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.3.a",
+    "label": "Resposta: Como a outra pessoa recebe?",
+    "value": "Você recebe um endereço personalizado e um QR Code. Basta enviar o link ou imprimir o código para colocar na sua surpresa. O presente abre no navegador, no celular ou computador.",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.4.q",
+    "label": "A música toca dentro da retrospectiva?",
+    "value": "A música toca dentro da retrospectiva?",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "faq.4.a",
+    "label": "Resposta: A música toca dentro da retrospectiva?",
+    "value": "Você pode usar nossa trilha instrumental original ou adicionar um link do Spotify ou YouTube. Nesse caso, a música usa o player oficial da plataforma, com os controles e a disponibilidade dela.",
+    "group": "Dúvidas"
+  },
+  {
+    "id": "nav.presentes",
+    "label": "Menu: Os presentes",
+    "value": "Os presentes",
+    "group": "Navegação"
+  },
+  {
+    "id": "nav.como-funciona",
+    "label": "Menu: Como funciona",
+    "value": "Como funciona",
+    "group": "Navegação"
+  },
+  {
+    "id": "nav.planos",
+    "label": "Menu: Planos",
+    "value": "Planos",
+    "group": "Navegação"
+  },
+  {
+    "id": "nav.duvidas",
+    "label": "Menu: Dúvidas",
+    "value": "Dúvidas",
+    "group": "Navegação"
+  },
+  {
+    "id": "image.mascot",
+    "label": "Imagem do Coala (URL)",
+    "value": "/assets/koala.png",
+    "group": "Imagens"
+  },
+  {
+    "id": "image.couple",
+    "label": "Foto do casal de exemplo (URL)",
+    "value": "/assets/couple-demo.webp",
+    "group": "Imagens"
+  },
+  {
+    "id": "image.logo",
+    "label": "Ícone da marca (URL)",
+    "value": "/favicon.svg",
+    "group": "Imagens"
+  }
+]

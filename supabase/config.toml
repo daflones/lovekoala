@@ -1,0 +1,4 @@
+project_id = "enhnlektomuoumozjsfp"
+[functions.lovekoala-api]
+verify_jwt = false
+# Edição exige x-edit-token verificado no servidor; webhooks têm assinatura própria.

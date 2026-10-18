@@ -1,0 +1,33 @@
+# Prompt para continuar o LoveKoala
+
+Copie o texto abaixo para o Devin junto do repositório extraído do ZIP.
+
+---
+
+Você continuará o LoveKoala, presentes digitais para casais em React 19, TypeScript e Vite, Supabase como backend. Leia README.md, docs/STATUS.md, docs/VALIDATION.md, docs/EASYPANEL.md e docs/CAPITAO_KOALA.md antes de alterar. Não misture integrações com LifeBots, Kindora Paws ou outro projeto do proprietário.
+
+O proprietário fará commit/push e deploy pelo EasyPanel. Dockerfile faz npm ci/build com Node 24 e serve dist pelo Nginx na porta 8080. Domínio final https://lovekoala.com.br; páginas /criar, /conta, /admin e /presente/slug. Não hospedar GPU/NIM ou outro banco. Não usar Vite dev/preview em produção. O ZIP não contém .git ou chaves privadas; os exemplos de ambiente são modelos, nunca devem substituir secrets existentes com valores vazios.
+
+Supabase: projeto enhnlektomuoumozjsfp, Edge lovekoala-api v21 ACTIVE e 18 migrations confirmadas em 18/10/2026. As quatro novas versões são 20261018033136, 20261018033423, 20261018034104 e 20261018035009. Arquivos locais correspondem ao histórico aplicado. Não executar migration-history.sql nem reaplicar migrations. Não recriar/resetar a conta admin existente.
+
+A configuração padrão SITE_URL/ALLOWED_ORIGINS e Site URL do Auth não foi atualizada nesta sessão. O código já aceita a origem de produção e usa redirects explícitos; scripts/prepare-production.py em modo consulta verifica o histórico e --apply conclui os defaults, ignora migrations registradas e republica a função. Exige token em env protegida ou prompt oculto. Preserva chaves dos provedores. Verifique estado atual antes de rodar.
+
+DNS/EasyPanel/HTTPS não foram acessados. Depois da hospedagem, rode scripts/smoke-production.py e Admin → Pagamentos → Verificar domínio → Ativar webhooks no domínio. As duas rotas /api/webhooks/stripe e /api/webhooks/mercosulpay precisam rejeitar POST sem assinatura com 401 e marcador correto. Só então o backend muda o mesmo endpoint Stripe dedicado, preserva signing secret e grava a base de novos callbacks Pix no Vault. Callbacks antigos Supabase permanecem válidos. Nunca alterar webhooks de outros projetos ou criar cobrança só para testar conectividade.
+
+Geração de imagens está PAUSADA por decisão do proprietário. AI_IMAGES_PAUSED=true bloqueia rotas mesmo com secrets antigos; não mostrar estúdio, referências ou créditos em planos. Conteúdo/arte anteriores preservados. Não ativar Qwen, SD3.5 ou NIM.
+
+Koala público usa z-ai/glm-5.3-flash na NVIDIA, segredo NVIDIA_CHAT_API_KEY apenas no servidor. Navegação por ferramenta navigate_lovekoala e intenções limitadas: create, plans, examples, how, faq, account, checkout. Nunca URLs arbitrárias, cobranças ou publicação por conversa. Resposta interrompida não navega; informações sem pedido explícito viram botão. Checkout destaca campos faltantes. Conversa em memória da página, sem acesso automático a fotos/cartas.
+
+Capitão Koala é separado, exclusivo do admin em /admin?aba=captain. Admin é validado por JWT e lk_admins ANTES da chamada ao provedor. Ferramentas consultam relatórios mensais/anuais, usuários, presentes, pedidos, assinaturas, abandonos, auditoria, planos e personalizador. Leituras delimitadas e SQL fixo/parametrizado. Pode propor preços/limites/benefícios, textos/cores/seções/perguntas/tags e pausa de presente/usuário. Proposta guarda antes/depois, pertence ao admin, expira em 15 minutos; exige confirmação numa mensagem posterior ou botão. RPC aplica com trava, comparação contra dado atual e auditoria idempotente. Nunca dar SQL arbitrário, segredos, administração de papéis, cobrança/reembolso ou exclusão ao modelo.
+
+Relatórios são receita BRUTA confirmada, não lucro: sem custos, taxas, impostos ou cobertura completa de estornos de faturas posteriores. Não duplicar primeira fatura da assinatura com pedido inicial. Métricas de sessão só existem a partir dos eventos; zero não prova inexistência histórica de acessos. Mês atual é parcial, fuso America/Sao_Paulo. Não inventar números. Resultados operacionais necessários, inclusive e-mails de consultas administrativas, podem ser enviados à NVIDIA; fotos, cartas e tokens ficam fora.
+
+Pagamento agora vem ANTES da conta. Visitante monta, confere, escolhe plano e paga. Depois cria conta ou faz login; formulário preenche e-mail já informado. Vinculação de visitante com pagamento pendente/pago exige e-mail confirmado igual ao snapshot checkout_email, mais acesso privado no endpoint. Autosave também usa lk_claim_gift_owner, sem PATCH direto de dono. Assinatura é vinculada junto. Não criar conta silenciosamente ou marcar pagamento como confirmado sem provedor. Para visitante que abandona, resumo solicitado usa segredo no fragmento #retomar, hash no banco, validade e rotação de acesso; nunca colocar esse acesso em analytics/logs. Envios dependem de Resend/remetente; SMTP/Auth é separado. Não dizer enviado sem retorno confirmado do transporte.
+
+Planos: 24h de edição e acesso desde confirmação; vitalício; Clube mensal de dois presentes vitalícios por ciclo pago, primeiro já conta, sem acúmulo. Cartão renova; Pix manual. Falta de renovação impede novas cotas, preservando presentes vitalícios anteriores. Compras antigas mantêm snapshots. Publicação exige conta proprietária, conteúdo, consentimento e pagamento real; bloquear expiração na API sem depender só do cron.
+
+Preservar álbum PageFlip, isolamento da raspadinha, áudio real de papel, cartas/vales e música opcional no player externo ao livro, iniciada na página musical. Retrospectiva tem até 17 capítulos, fotos em carrossel, contadores vivos e três jogos fixos solo/dupla. Player oficial YouTube visível; não extrair áudio nem ocultar o vídeo para contornar regras.
+
+Verificações desta entrega: 41 testes Node, 5 Python, TypeScript frontend/Edge, SSR, SQL remoto com rollback de checkout e Capitão. Chat público real respondeu com navegação em streaming. Teste autenticado real do Capitão não foi concluído: criação permanente de admin de QA sem limpeza foi bloqueada; não repetir esse procedimento. Não houve teste visual em navegador, execução Docker/Nginx, transação real ou e-mail. Registre limites com honestidade. Execute check, check:edge, test, test:ops, render-check e build conforme README; testes financeiros SQL precisam rollback e fixtures identificadas.
+
+Mantenha identidade lilás/rosa, mascote animado sem emojis, layouts móveis e formulários acessíveis. Faça mudanças focadas, documente o estado real aplicado e não exponha chaves em fonte, PR, ZIP, chat ou logs. O usuário quer continuidade executável, não apenas sugestões.

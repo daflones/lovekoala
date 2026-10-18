@@ -1,0 +1,5 @@
+export const MONTHS=['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+export function localToday(now=new Date()){return `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;}
+export function parseDay(value){if(!/^\d{4}-\d{2}-\d{2}$/.test(value||''))return null;const [y,m,d]=value.split('-').map(Number);const date=new Date(y,m-1,d,12);return date.getFullYear()===y&&date.getMonth()===m-1&&date.getDate()===d?date:null;}
+export function monthDays(year,month){const offset=new Date(year,month,1,12).getDay(),count=new Date(year,month+1,0,12).getDate();return Array.from({length:Math.ceil((offset+count)/7)*7},(_,i)=>i>=offset&&i<offset+count?`${year}-${String(month+1).padStart(2,'0')}-${String(i-offset+1).padStart(2,'0')}`:null);}
+export function displayDay(value){const date=parseDay(value);return date?date.toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}):'';}
